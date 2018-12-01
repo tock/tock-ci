@@ -1,0 +1,7 @@
+
+
+[setup]
+apps = ["libtock-c/examples/rot13_client", "libtock-c/examples/rot13_service"]
+
+[eval]
+stdout = ["12: Hello World!", "12: Uryyb Jbeyq!"]

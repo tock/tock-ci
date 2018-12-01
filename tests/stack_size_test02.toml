@@ -1,0 +1,7 @@
+
+
+[setup]
+apps = ["libtock-c/examples/tests/stack_size_test02"]
+
+[eval]
+stdout = "Current stack pointer:"

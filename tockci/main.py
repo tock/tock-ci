@@ -340,7 +340,11 @@ def command_test (args):
 		# Now we let the apps run and see what output we get
 		if 'stdout' in config['eval']:
 
+			# Force what we are looking for to be a list
+			search_strings = list(config['eval']['stdout'])
 
+
+			# Connect to a serial port to get UART data
 			# Look for a matching port
 			ports = list(serial.tools.list_ports.grep('tock'))
 			if len(ports) == 1:
@@ -370,7 +374,12 @@ def command_test (args):
 				ret = sp.read(2048)
 				all += ret.decode('utf-8')
 
-				if config['eval']['stdout'] in all:
+
+
+				for search in search_strings:
+					if not search in all:
+						break
+				else:
 					found = True
 					break
 

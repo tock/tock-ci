@@ -1,0 +1,7 @@
+
+
+[setup]
+apps = ["libtock-c/examples/tests/printf_long"]
+
+[eval]
+stdout = ["Hi welcome to Tock. This test makes sure that a greater than 64 byte message can be printed.", "And a short message."]
