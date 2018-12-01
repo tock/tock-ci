@@ -1,0 +1,8 @@
+
+
+
+[setup]
+apps = ["libtock-c/examples/c_hello"]
+
+[eval]
+stdout = "Hello World!"
