@@ -1,0 +1,7 @@
+
+
+[setup]
+apps = ["libtock-c/examples/tests/malloc_test01"]
+
+[eval]
+stdout = "malloc01: success"
