@@ -1,6 +1,10 @@
+# Test to run the libtock-c "c_hello" app on the nrf52840dk.
 
+[hardware]
+board = "nrf52840dk"
 
 [setup]
+kernel = "nordic/nrf52840dk"
 apps = ["libtock-c/examples/c_hello"]
 
 [eval]
