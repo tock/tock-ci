@@ -1,0 +1,14 @@
+
+examples/tutorials/05_ipc/led and examples/tutorials/05_ipc/rng and examples/tutorials/05_ipc/logic
+
+
+apps:
+ - libtock-c/examples/tutorials/05_ipc/led
+ - libtock-c/examples/tutorials/05_ipc/logic
+ - libtock-c/examples/tutorials/05_ipc/rng
+
+TOCKLOADER:
+tockloader install --erase led/build/org.tockos.tutorials.ipc.led.tab logic/build/org.tockos.tutorials.ipc.logic.tab rng/build/org.tockos.tutorials.ipc.rng.tab
+
+NOTES:
+not good as the only output is blinking LEDs

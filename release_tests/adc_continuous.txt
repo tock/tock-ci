@@ -1,0 +1,13 @@
+
+examples/tests/adc_continuous
+
+apps:
+- libtock-c/examples/tests/adc/adc_continuous
+
+
+OUTPUT:
+[Tock] ADC Continuous Test
+ADC driver exists with 6 channels
+Beginning continuous sampling on channel 0 at 10 Hz
+continuous sample error: -1
+

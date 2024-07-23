@@ -1,0 +1,220 @@
+
+examples/tests/adc
+
+
+
+apps:
+- libtock-c/examples/tests/adc/adc
+
+
+OUTPUT:
+[Tock] ADC Test
+ADC driver exists with 6 channels
+ADC reference voltage 2.995V
+ADC resolution 12 bits
+
+Single Samples - Channel 0
+ADC Reading: 148 mV (raw: 0x0cb0)
+tock$ ADC Reading: 149 mV (raw: 0x0cc0)
+ADC Reading: 147 mV (raw: 0x0ca0)
+ADC Reading: 147 mV (raw: 0x0ca0)
+ADC Reading: 149 mV (raw: 0x0cc0)
+ADC Reading: 145 mV (raw: 0x0c70)
+ADC Reading: 148 mV (raw: 0x0cb0)
+ADC Reading: 151 mV (raw: 0x0cf0)
+ADC Reading: 149 mV (raw: 0x0cc0)
+ADC Reading: 151 mV (raw: 0x0cf0)
+
+Buffered Samples - Channel 0
+16 ADC samples at 25 Hz
+    [ 154 160 165 171 178 184 189 195 199 207 213 215 221 227 233 239 ]
+16 ADC samples at 100 Hz
+    [ 219 223 228 236 237 244 247 250 258 263 267 274 276 278 282 288 ]
+16 ADC samples at 500 Hz
+    [ 257 261 266 269 272 280 283 291 291 293 302 306 310 313 317 323 ]
+16 ADC samples at 1000 Hz
+    [ 286 285 292 296 301 306 308 310 318 318 321 326 334 332 335 342 ]
+16 ADC samples at 5000 Hz
+    [ 299 304 309 309 315 321 326 331 333 332 338 342 348 352 352 353 ]
+16 ADC samples at 10000 Hz
+    [ 309 315 317 324 326 329 333 338 342 345 345 350 355 360 362 369 ]
+16 ADC samples at 44100 Hz
+    [ 315 321 323 329 328 334 343 345 348 351 354 356 361 365 370 369 ]
+16 ADC samples at 100000 Hz
+    [ 332 339 341 348 351 352 356 359 361 366 367 372 376 379 383 383 ]
+16 ADC samples at 150000 Hz
+    [ 337 347 350 351 359 359 362 365 366 377 375 382 384 387 388 394 ]
+16 ADC samples at 175000 Hz
+    [ 351 356 356 357 366 367 369 373 380 381 385 388 389 395 398 402 ]
+
+Single Samples - Channel 1
+ADC Reading: 57 mV (raw: 0x04e0)
+ADC Reading: 21 mV (raw: 0x01e0)
+ADC Reading: 24 mV (raw: 0x0220)
+ADC Reading: 21 mV (raw: 0x01d0)
+ADC Reading: 24 mV (raw: 0x0210)
+ADC Reading: 23 mV (raw: 0x0200)
+ADC Reading: 24 mV (raw: 0x0210)
+ADC Reading: 24 mV (raw: 0x0220)
+ADC Reading: 24 mV (raw: 0x0210)
+ADC Reading: 26 mV (raw: 0x0240)
+
+Buffered Samples - Channel 1
+16 ADC samples at 25 Hz
+    [ 27 40 46 55 59 68 73 78 88 92 99 105 111 114 123 127 ]
+16 ADC samples at 100 Hz
+    [ 29 37 41 47 58 60 69 76 81 86 93 98 108 112 118 122 ]
+16 ADC samples at 500 Hz
+    [ 28 38 45 50 59 62 69 78 84 87 95 102 107 112 121 123 ]
+16 ADC samples at 1000 Hz
+    [ 30 38 46 48 57 64 70 80 84 89 97 104 106 113 122 127 ]
+16 ADC samples at 5000 Hz
+    [ 30 40 46 48 56 67 69 80 82 90 96 105 106 110 119 125 ]
+16 ADC samples at 10000 Hz
+    [ 29 38 40 51 58 66 70 78 84 93 97 104 109 115 119 127 ]
+16 ADC samples at 44100 Hz
+    [ 27 35 44 51 60 70 72 78 89 91 100 107 110 118 125 133 ]
+16 ADC samples at 100000 Hz
+    [ 32 40 44 54 59 69 72 82 87 95 105 108 114 118 127 134 ]
+16 ADC samples at 150000 Hz
+    [ 29 38 42 54 60 70 74 81 87 95 104 111 113 122 127 133 ]
+16 ADC samples at 175000 Hz
+    [ 29 36 44 49 59 67 72 79 89 91 100 107 113 118 124 133 ]
+
+Single Samples - Channel 2
+ADC Reading: 246 mV (raw: 0x1510)
+ADC Reading: 230 mV (raw: 0x13b0)
+ADC Reading: 217 mV (raw: 0x12a0)
+ADC Reading: 204 mV (raw: 0x1170)
+ADC Reading: 198 mV (raw: 0x10f0)
+ADC Reading: 192 mV (raw: 0x1070)
+ADC Reading: 190 mV (raw: 0x1050)
+ADC Reading: 185 mV (raw: 0x0fe0)
+ADC Reading: 182 mV (raw: 0x0f90)
+ADC Reading: 179 mV (raw: 0x0f60)
+
+Buffered Samples - Channel 2
+16 ADC samples at 25 Hz
+    [ 177 183 190 198 203 208 212 220 225 233 235 244 247 250 259 261 ]
+16 ADC samples at 100 Hz
+    [ 239 248 250 254 263 265 274 280 278 287 288 295 304 303 308 312 ]
+16 ADC samples at 500 Hz
+    [ 279 284 293 291 297 302 305 312 315 323 323 330 332 335 340 342 ]
+16 ADC samples at 1000 Hz
+    [ 304 307 314 318 318 324 327 333 340 345 343 348 350 353 360 361 ]
+16 ADC samples at 5000 Hz
+    [ 318 326 327 333 332 337 342 350 350 352 353 360 361 371 372 375 ]
+16 ADC samples at 10000 Hz
+    [ 331 335 339 341 345 345 350 357 359 361 367 368 373 378 379 383 ]
+16 ADC samples at 44100 Hz
+    [ 332 337 342 345 349 353 356 364 367 368 370 378 383 385 388 390 ]
+16 ADC samples at 100000 Hz
+    [ 347 353 356 359 365 374 370 375 378 384 385 391 393 394 398 399 ]
+16 ADC samples at 150000 Hz
+    [ 359 363 367 367 372 379 379 386 385 390 394 395 399 405 408 407 ]
+16 ADC samples at 175000 Hz
+    [ 364 369 375 378 382 381 388 388 392 399 398 406 408 410 414 415 ]
+
+Single Samples - Channel 3
+ADC Reading: 245 mV (raw: 0x1500)
+ADC Reading: 222 mV (raw: 0x1300)
+ADC Reading: 204 mV (raw: 0x1180)
+ADC Reading: 190 mV (raw: 0x1040)
+ADC Reading: 181 mV (raw: 0x0f80)
+ADC Reading: 172 mV (raw: 0x0ec0)
+ADC Reading: 164 mV (raw: 0x0e10)
+ADC Reading: 159 mV (raw: 0x0da0)
+ADC Reading: 154 mV (raw: 0x0d30)
+ADC Reading: 151 mV (raw: 0x0cf0)
+
+Buffered Samples - Channel 3
+16 ADC samples at 25 Hz
+    [ 151 162 163 175 174 179 190 198 204 209 214 221 228 233 239 245 ]
+16 ADC samples at 100 Hz
+    [ 214 225 226 233 241 245 250 253 261 265 269 277 280 281 290 294 ]
+16 ADC samples at 500 Hz
+    [ 255 263 267 271 277 282 285 292 296 301 307 309 310 320 323 329 ]
+16 ADC samples at 1000 Hz
+    [ 287 284 294 298 304 306 307 315 325 324 332 333 338 340 343 350 ]
+16 ADC samples at 5000 Hz
+    [ 300 304 310 313 320 323 331 330 337 337 343 348 352 357 362 361 ]
+16 ADC samples at 10000 Hz
+    [ 310 313 321 324 327 332 337 338 344 348 353 356 356 363 367 374 ]
+16 ADC samples at 44100 Hz
+    [ 318 321 326 331 334 340 344 348 353 353 355 361 364 374 372 379 ]
+16 ADC samples at 100000 Hz
+    [ 334 337 343 343 350 354 359 364 368 369 375 376 380 386 385 390 ]
+16 ADC samples at 150000 Hz
+    [ 338 349 351 355 356 364 362 371 372 377 378 384 383 391 393 399 ]
+16 ADC samples at 175000 Hz
+    [ 349 353 361 365 367 369 377 373 382 387 391 396 396 397 403 405 ]
+
+Single Samples - Channel 4
+ADC Reading: 262 mV (raw: 0x1670)
+ADC Reading: 239 mV (raw: 0x1480)
+ADC Reading: 218 mV (raw: 0x12b0)
+ADC Reading: 206 mV (raw: 0x11b0)
+ADC Reading: 198 mV (raw: 0x10f0)
+ADC Reading: 188 mV (raw: 0x1020)
+ADC Reading: 181 mV (raw: 0x0f80)
+ADC Reading: 174 mV (raw: 0x0ef0)
+ADC Reading: 176 mV (raw: 0x0f10)
+ADC Reading: 171 mV (raw: 0x0ea0)
+
+Buffered Samples - Channel 4
+16 ADC samples at 25 Hz
+    [ 165 175 182 187 191 204 207 214 220 227 233 238 244 245 254 259 ]
+16 ADC samples at 100 Hz
+    [ 233 236 247 250 255 258 268 271 275 277 286 292 294 301 303 309 ]
+16 ADC samples at 500 Hz
+    [ 273 279 286 288 291 296 301 307 315 318 321 326 329 331 340 341 ]
+16 ADC samples at 1000 Hz
+    [ 298 304 306 309 315 319 325 328 333 332 342 343 346 353 353 361 ]
+16 ADC samples at 5000 Hz
+    [ 309 315 323 324 329 331 338 343 343 350 354 362 359 363 364 372 ]
+16 ADC samples at 10000 Hz
+    [ 319 324 333 334 338 343 344 350 353 356 364 367 375 373 378 380 ]
+16 ADC samples at 44100 Hz
+    [ 324 329 332 339 345 348 352 357 357 361 367 371 375 373 379 382 ]
+16 ADC samples at 100000 Hz
+    [ 337 342 350 350 354 362 363 368 370 373 380 383 387 391 392 399 ]
+16 ADC samples at 150000 Hz
+    [ 348 350 357 362 365 367 375 377 383 386 391 394 391 397 399 404 ]
+16 ADC samples at 175000 Hz
+    [ 357 361 361 364 370 376 377 379 386 393 392 399 398 409 408 410 ]
+
+Single Samples - Channel 5
+ADC Reading: 270 mV (raw: 0x1720)
+ADC Reading: 245 mV (raw: 0x1500)
+ADC Reading: 223 mV (raw: 0x1310)
+ADC Reading: 212 mV (raw: 0x1220)
+ADC Reading: 201 mV (raw: 0x1140)
+ADC Reading: 190 mV (raw: 0x1050)
+ADC Reading: 184 mV (raw: 0x0fd0)
+ADC Reading: 180 mV (raw: 0x0f70)
+ADC Reading: 179 mV (raw: 0x0f60)
+ADC Reading: 170 mV (raw: 0x0e90)
+
+Buffered Samples - Channel 5
+16 ADC samples at 25 Hz
+    [ 171 180 193 189 199 208 214 219 228 233 237 243 246 255 260 264 ]
+16 ADC samples at 100 Hz
+    [ 237 244 246 255 263 269 269 279 281 287 295 299 300 306 311 316 ]
+16 ADC samples at 500 Hz
+    [ 274 282 289 290 296 303 307 312 317 321 327 329 334 340 345 345 ]
+16 ADC samples at 1000 Hz
+    [ 296 307 311 318 321 325 331 332 334 340 343 348 353 361 362 368 ]
+16 ADC samples at 5000 Hz
+    [ 317 318 324 330 333 340 345 341 350 353 360 365 366 368 375 379 ]
+16 ADC samples at 10000 Hz
+    [ 319 328 330 336 340 338 350 350 358 364 366 367 369 378 378 389 ]
+16 ADC samples at 44100 Hz
+    [ 330 333 332 343 341 349 351 359 363 365 368 372 375 381 385 389 ]
+16 ADC samples at 100000 Hz
+    [ 344 348 353 356 360 364 371 371 380 381 382 391 397 393 399 401 ]
+16 ADC samples at 150000 Hz
+    [ 350 351 358 358 364 367 372 378 378 386 388 391 396 400 402 406 ]
+16 ADC samples at 175000 Hz
+    [ 358 365 364 372 375 379 382 379 392 394 397 399 399 408 410 411 ]
+
+

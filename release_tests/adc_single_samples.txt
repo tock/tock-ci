@@ -1,0 +1,40 @@
+examples/tests/adc single samples
+
+apps:
+- libtock-c/examples/tests/adc/adc_single_samples
+
+OUTPUT:
+[Tock] ADC Sample All Channels Test
+ADC driver exists with 6 channels
+
+Single Samples
+Channel 0: 4254 mV (raw: 0x14a0)
+Channel 1: 812 mV (raw: 0x03f0)
+Channel 2: 4035 mV (raw: 0x1390)
+Channel 3: 3906 mV (raw: 0x12f0)
+Channel 4: 4319 mV (raw: 0x14f0)
+Channel 5: 3468 mV (raw: 0x10d0)
+
+tock$ Single Samples
+Channel 0: 4151 mV (raw: 0x1420)
+Channel 1: 747 mV (raw: 0x03a0)
+Channel 2: 4009 mV (raw: 0x1370)
+Channel 3: 3881 mV (raw: 0x12d0)
+Channel 4: 4216 mV (raw: 0x1470)
+Channel 5: 2591 mV (raw: 0x0c90)
+
+Single Samples
+Channel 0: 4087 mV (raw: 0x13d0)
+Channel 1: 799 mV (raw: 0x03e0)
+Channel 2: 4100 mV (raw: 0x13e0)
+Channel 3: 3868 mV (raw: 0x12c0)
+Channel 4: 4177 mV (raw: 0x1440)
+Channel 5: 2488 mV (raw: 0x0c10)
+
+Single Samples
+Channel 0: 4113 mV (raw: 0x13f0)
+Channel 1: 825 mV (raw: 0x0400)
+Channel 2: 4074 mV (raw: 0x13c0)
+Channel 3: 3881 mV (raw: 0x12d0)
+Channel 4: 4203 mV (raw: 0x1460)
+Channel 5: 2462 mV (raw: 0x0bf0)

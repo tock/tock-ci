@@ -1,0 +1,13 @@
+mpu/fault end
+
+apps:
+- libtock-c/examples/tests/mpu/mpu_flash_end
+
+OUTPUT:
+[TEST] MPU Flash End
+Reading last byte in flash...
+Address: 0x43fff, value: 00
+Reading next byte...
+
+RESULT
+panic
